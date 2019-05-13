@@ -17,7 +17,7 @@ export class FormComponent implements OnInit {
       message: ['', Validators.required],
     })
   }
-
+ 
   onSubmit() {
     this.submitted = true;
     if (this.messageForm.invalid) {
